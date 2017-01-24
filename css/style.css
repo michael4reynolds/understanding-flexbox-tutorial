@@ -1,0 +1,303 @@
+.sample {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    display: flex;
+    background-color: #F0ECEA;
+    padding-left: 0;
+}
+
+li {
+    list-style: none;
+    margin: 8px;
+    padding: 4px;
+}
+
+.part-1 li {
+    width: 100px;
+}
+
+/*part-2 li {
+    height: 100px;
+}*/
+
+.part-1 li,
+.part-2 li {
+    min-height: 100px;
+    background-color: #8cacea;
+}
+
+.dir-row {
+    flex-direction: row;
+}
+
+.dir-col {
+    flex-direction: column;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
+.reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.flow {
+    flex-flow: row-reverse wrap-reverse;
+}
+
+.just-start {
+    justify-content: flex-start;
+}
+
+.just-center {
+    justify-content: center;
+}
+
+.just-end {
+    justify-content: flex-end;
+}
+
+.just-between {
+    justify-content: space-between;
+}
+
+.just-around {
+    justify-content: space-around;
+}
+
+.tall {
+    height: 300px;
+}
+
+.wrap.tall {
+    height: 400px;
+}
+
+
+/*.tall li {
+    height: auto;
+    min-height: 0;
+}*/
+
+.align-items-stretch {
+    align-items: stretch;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.align-items-end {
+    align-items: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-baseline {
+    align-items: baseline;
+}
+
+.limit-1024 {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.align-cnt-stretch {
+    align-content: stretch;
+}
+
+.align-cnt-start {
+    align-content: flex-start;
+}
+
+.align-cnt-end {
+    align-content: flex-end;
+}
+
+.align-cnt-center {
+    align-content: center;
+}
+
+.chapter {
+    background-color: #8E6E63;
+    color: #F0ECEA;
+    padding: 20px;
+    text-align: center;
+}
+
+.order-1 li {
+    min-width: 100px;
+}
+
+.order-1 li:nth-child(1) {
+    order: 1;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.basis-1 li {
+    flex-basis: auto;
+}
+
+.basis-1 .fixed-width {
+    flex-basis: 150px;
+}
+
+.sub-topic {
+    margin-left: 20px;
+}
+
+.basis-4-1 li {
+    flex: 0 1 auto;
+}
+
+.basis-4-2 li {
+    flex: 0 0 auto;
+}
+
+.basis-4-3 li {
+    flex: 1 1 auto;
+}
+
+.basis-4-4 li:nth-child(1) {
+    flex: 2 1 0;
+}
+
+.basis-4-4 li:nth-child(2) {
+    flex: 1 1 0;
+}
+
+.basis-4-5 li:first-of-type {
+    align-self: flex-end;
+}
+
+.basis-4-5 li:nth-child(2) {
+    align-self: center;
+}
+
+.basis-4-5 li:nth-child(3) {
+    align-self: flex-start;
+}
+
+.absolute-and-relative li {
+    margin: 2em;
+}
+
+.relative li {
+    flex: auto;
+}
+
+.absolute li {
+    flex: 1;
+}
+
+[class*='auto-margin'] li {
+    flex: 0 0 auto;
+    min-height: 0;
+}
+
+.auto-margin-1 li:nth-child(1) {
+    margin-right: auto;
+}
+
+.auto-margin-2 li:nth-child(1) {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exercises li {
+    background: transparent;
+}
+
+.bootstrap-nav {
+    background-color: #8CACEA;
+    font-family: 'Helvetica Neue', Helvetica, Arial;
+}
+
+ul.ex-bootstrap {
+    padding-left: 0;
+    align-items: center;
+    background: transparent;
+    margin-bottom: 0;
+}
+
+.ex-bootstrap li:nth-child(1) {
+    margin-right: auto;
+}
+
+.header-bottom {
+    display: block;
+    padding: 15px 20px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 1em;
+    text-decoration: none;
+}
+
+.header-bottom:hover {
+    background-color: #0269c2;
+}
+
+.bootstrap-container {
+    margin: 0 auto;
+}
+
+.nav-top-background {
+    background: #ffffff;
+}
+
+@media (min-width: 768px) {
+    .bootstrap-container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .bootstrap-container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .bootstrap-container {
+        width: 1170px;
+    }
+}
+
+.airbnb-nav {
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.airbnb-nav ul,
+.twitter-nav ul {
+    background-color: transparent;
+    align-items: center;
+}
+
+.airbnb-nav li {
+    min-height: 0;
+}
+
+.airbnb-logo {
+    width: 29px;
+    height: 37px;
+}
+
+.auto-margin-5 li:nth-child(5) {
+    margin-right: auto;
+    margin-left: auto;
+}
