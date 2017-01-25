@@ -306,7 +306,7 @@ ul.ex-bootstrap {
     font-weight: 500;
 }
 
-.twitter-nav a {
+.twitter-nav .nav-label {
     font-size: 13px;
 }
 
@@ -380,7 +380,7 @@ a.button:hover {
     border: 1px solid rgb(219, 219, 219);
     color: rgb(54, 54, 54);
     cursor: pointer;
-    padding: 0.75em;
+    padding: .4em .813em .4em .875em;
     white-space: nowrap;
 }
 
@@ -392,4 +392,8 @@ a.button:hover {
 
 .is-primary i {
     margin-right: 5px;
+}
+
+.button-label {
+    font-size: 13px;
 }
