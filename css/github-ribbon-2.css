@@ -34,7 +34,7 @@
     top: auto;
 }
 
-@media screen and (min-width:800px) {
+@media screen and (min-width: 800px) {
     #forkongithub {
         position: absolute;
         display: block;
@@ -45,6 +45,7 @@
         height: 200px;
         z-index: 9999;
     }
+
     #forkongithub a {
         width: 200px;
         position: absolute;
