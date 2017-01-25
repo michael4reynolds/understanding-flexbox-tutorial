@@ -367,19 +367,20 @@
   <nav class="twitter-nav">
     <ul class="bootstrap-container auto-margin-5">
       <li>
-        <a><span><i class="fa fa-home fa-fw" aria-hidden="true"></i></span><span>Home</span></a>
+        <span><i class="fa fa-home fa-fw" aria-hidden="true"></i></span>
+        <span>Home</span>
       </li>
       <li>
         <span><i class="fa fa-bolt fa-fw" aria-hidden="true"></i></span>
-        <a>Moments</a>
+        <span>Moments</span>
       </li>
       <li>
         <span><i class="fa fa-bell fa-fw" aria-hidden="true"></i></span>
-        <a>Notifications</a>
+        <span>Notifications</span>
       </li>
       <li>
         <span><i class="fa fa-envelope fa-fw" aria-hidden="true"></i></span>
-        <a>Messages</a>
+        <span>Messages</span>
       </li>
       <li>
         <a>
@@ -389,17 +390,20 @@
       <li>
         <form>
           <input class="twitter-search" type="text" placeholder="Search Twitter">
-          <input type="button"><i class="fa fa-search"></i></input>
+          <button class="twitter-search-icon" type="submit"><i class="fa fa-search"></i></button>
         </form>
       </li>
-      <li>
+      <li class="twitter-user">
         <a>
           <img class="avatar" src="https://abs.twimg.com/sticky/default_profile_images/default_profile_6_normal.png"
                alt="Profile and settings">
         </a>
       </li>
       <li>
-        <a>new message button</a>
+        <a class="is-primary button">
+          <span><i class="fa fa-pencil-square-o"></i></span>
+          <span>Tweet</span>
+        </a>
       </li>
     </ul>
   </nav>

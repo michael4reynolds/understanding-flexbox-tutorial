@@ -223,7 +223,7 @@ li {
 
 .bootstrap-nav {
     background-color: #8CACEA;
-    font-family: 'Helvetica Neue', Helvetica, Arial;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 ul.ex-bootstrap {
@@ -316,6 +316,7 @@ ul.ex-bootstrap {
 }
 
 .twitter-nav form {
+    position: relative;
     width: 221px;
 }
 
@@ -330,4 +331,65 @@ ul.ex-bootstrap {
     border-radius: 21px;
     outline: none;
     box-shadow: none !important;
+}
+
+.twitter-search-icon {
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    color: #66757f;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    background: transparent;
+}
+
+.twitter-search-icon i {
+    font-size: 13px;
+}
+
+.twitter-nav .avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+}
+
+.twitter-user {
+    margin-bottom: 5px;
+}
+
+a.button {
+    cursor: pointer;
+    text-decoration: none;
+    transition-duration: 86ms;
+    transition-timing-function: ease-out;
+    transition-delay: initial;
+    transition-property: none;
+}
+
+a.button:hover {
+    color: rgb(54, 54, 54);
+}
+
+.button {
+    -webkit-appearance: none;
+    border-radius: 3px;
+    box-shadow: none;
+    user-select: none;
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    color: rgb(54, 54, 54);
+    cursor: pointer;
+    padding: 0.75em;
+    white-space: nowrap;
+}
+
+.button.is-primary {
+    background: rgba(0, 132, 180, .8);
+    border-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.is-primary i {
+    margin-right: 5px;
 }
