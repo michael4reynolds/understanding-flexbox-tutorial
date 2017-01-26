@@ -1,6 +1,6 @@
 #forkongithub a {
     background: #171F12;
-    color: #fff;
+    color: #FFF;
     text-decoration: none;
     font-family: arial, sans-serif;
     text-align: center;
@@ -45,12 +45,12 @@
         height: 200px;
         z-index: 9999;
     }
-
+    
     #forkongithub a {
         width: 200px;
         position: absolute;
-        top: 60px;
-        left: -60px;
+        top: 8px;
+        left: -55px;
         transform: rotate(-45deg);
         -webkit-transform: rotate(-45deg);
         -ms-transform: rotate(-45deg);

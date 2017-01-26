@@ -23,11 +23,10 @@ li {
 /*part-2 li {
     height: 100px;
 }*/
-
 .part-1 li,
 .part-2 li {
     min-height: 100px;
-    background-color: #8cacea;
+    background-color: #8CACEA;
 }
 
 .dir-row {
@@ -86,7 +85,6 @@ li {
     height: auto;
     min-height: 0;
 }*/
-
 .align-items-stretch {
     align-items: stretch;
 }
@@ -240,14 +238,14 @@ ul.ex-bootstrap {
     display: block;
     padding: 15px 20px;
     text-align: center;
-    color: #ffffff;
+    color: #FFFFFF;
     font-weight: bold;
     margin-bottom: 1em;
     text-decoration: none;
 }
 
 .header-bottom:hover {
-    background-color: #0269c2;
+    background-color: #0269C2;
 }
 
 .bootstrap-container {
@@ -255,7 +253,7 @@ ul.ex-bootstrap {
 }
 
 .nav-top-background {
-    background: #ffffff;
+    background: #FFFFFF;
 }
 
 @media (min-width: 768px) {
@@ -306,6 +304,28 @@ ul.ex-bootstrap {
     font-weight: 500;
 }
 
+.twitter-nav ul {
+    position: relative;
+}
+
+.twitter-nav .new:before {
+    content: "\25CF";
+    font-size: 14px;
+    left: 5px;
+    position: absolute;
+    top: 10px;
+    color: #0084B4;
+}
+
+.twitter-nav .current-link {
+    border-bottom: 5px solid #1b95e0;
+    transition: all .15s ease-in-out;
+}
+
+.twitter-nav li:hover {
+    color: #1B95E0;
+}
+
 .twitter-nav .nav-label {
     font-size: 13px;
 }
@@ -313,6 +333,10 @@ ul.ex-bootstrap {
 .twitter-nav i {
     font-size: 21px;
     vertical-align: -2px;
+}
+
+.twitter-nav .is-primary i {
+    vertical-align: -3px;
 }
 
 .twitter-nav form {
@@ -325,9 +349,9 @@ ul.ex-bootstrap {
     height: 32px;
     padding: 5px 27px 6px 12px;
     font-size: 12px;
-    color: #292f33;
-    background-color: #f5f8fa;
-    border: 1px solid #e1e8ed;
+    color: #292F33;
+    background-color: #F5F8FA;
+    border: 1px solid #E1E8ED;
     border-radius: 21px;
     outline: none;
     box-shadow: none !important;
@@ -337,7 +361,7 @@ ul.ex-bootstrap {
     position: absolute;
     top: 8px;
     right: 10px;
-    color: #66757f;
+    color: #66757F;
     cursor: pointer;
     border: none;
     padding: 0;
@@ -380,12 +404,12 @@ a.button:hover {
     border: 1px solid rgb(219, 219, 219);
     color: rgb(54, 54, 54);
     cursor: pointer;
-    padding: .4em .813em .4em .875em;
+    padding: 0.3em 0.813em 0.5em 0.875em;
     white-space: nowrap;
 }
 
 .button.is-primary {
-    background: rgba(0, 132, 180, .8);
+    background: rgba(0, 132, 180, 0.8);
     border-color: transparent;
     color: rgb(255, 255, 255);
 }
