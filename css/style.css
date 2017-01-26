@@ -16,13 +16,15 @@ li {
     padding: 4px;
 }
 
+.part-1 ul {
+    border-bottom: 1px dashed red;
+    /*margin: 1px;*/
+}
+
 .part-1 li {
     width: 100px;
 }
 
-/*part-2 li {
-    height: 100px;
-}*/
 .part-1 li,
 .part-2 li {
     min-height: 100px;
@@ -81,10 +83,6 @@ li {
     height: 400px;
 }
 
-/*.tall li {
-    height: auto;
-    min-height: 0;
-}*/
 .align-items-stretch {
     align-items: stretch;
 }
@@ -213,6 +211,11 @@ li {
 .auto-margin-2 li:nth-child(1) {
     margin-left: auto;
     margin-right: auto;
+}
+
+.exercises {
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .exercises li {
@@ -437,4 +440,16 @@ a.button:hover {
 
 .button-label {
     font-size: 13px;
+}
+
+.part-3 ul {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.part-3 li {
+    flex-basis: 100px;
+    width: 200px;
+    background-color: #8CACEA;
 }
