@@ -318,12 +318,24 @@ ul.ex-bootstrap {
 }
 
 .twitter-nav .current-link {
-    border-bottom: 5px solid #1b95e0;
+    border-bottom: 2px solid #1b95e0;
     transition: all .15s ease-in-out;
 }
 
-.twitter-nav li:hover {
+.twitter-nav .page-link {
+    margin: 0;
+    padding: 0;
+}
+
+.page-link a {
+    margin: 8px;
+    padding: 4px;
+}
+
+.twitter-nav .page-link:hover {
+    border-bottom: 2px solid #1b95e0;
     color: #1B95E0;
+    transition: all .1s ease-in-out;
 }
 
 .twitter-nav .nav-label {
@@ -355,6 +367,11 @@ ul.ex-bootstrap {
     border-radius: 21px;
     outline: none;
     box-shadow: none !important;
+    transition: all .2s ease-in-out;
+}
+
+.twitter-search:focus {
+    background-color: #fff;
 }
 
 .twitter-search-icon {
